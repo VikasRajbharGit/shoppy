@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+}
+
+.seacrh_box {
+  backdrop-filter: blur(8px);
+  background-color: rgba(243, 243, 247, 0.6);
+  border-radius: 10px 0px 0px 10px;
+  border: thin;
+  /* position: relative; */
+  /* top: 0px; */
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 40px;
+  width: 30vw;
+}
+
+.clear_search {
+  backdrop-filter: blur(8px);
+  background-color: rgba(243, 243, 247, 0.6);
+  border-radius: 0px 10px 10px 0px;
+  border: thin;
+  /* position: relative; */
+  /* top: 0px; */
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 40px;
+  color: rgba(116, 116, 116, 0.9);
+  /* width: 30vw; */
+}
+
+.clear_search:hover {
+  background-color: rgba(204, 204, 211, 0.6);
+}
+
+.seacrh_box:focus {
+  border: thin;
+}
+
+@media (max-width: 500px) {
+  .seacrh_box {
+    width: 80vw;
+  }
+}

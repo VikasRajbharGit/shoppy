@@ -1,0 +1,27 @@
+.pay {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 2vw;
+  right: 5vw;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background: linear-gradient(
+    3deg,
+    rgba(75, 41, 249, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.pay:hover {
+  opacity: 0.8;
+}
+
+.pay_text {
+  overflow-wrap: break-word;
+  font-size: 14px;
+  font-weight: bolder;
+  color: rgb(250, 237, 61);
+}
